@@ -1,33 +1,38 @@
-# TASK-NAME
+# String Interpolation ➕
 
-This is the template for tasks. These repos are the starting points and instructions for students to explore a concept.
+Given the following variables:
 
-## Instructions
-- Fork and clone [this repository](https://github.com/JoinCODED/{REPO_NAME}) to your `Development` folder.
+```dart
+double temperature = 20;
+String juice = 'juice';
+String flavor = 'orange';
+```
 
-## Objective and end result
-- Write the objective of the task.
-- If there are any images, make sure you resize them to around 880px maximum width. **Don't add big images**
+Use `print` and string interpolation to achieve this output in the console:
 
-![screenshot](https://tenor.com/xNjE.gif)
+```
+The temperature is 20C
+I like orange juice.
+```
 
+The output should update correctly if we change the values of the variables.
 
-### 🍋 The basic challenge title
+For example, if temperature is 30, the output should print:
 
-- Step 1
-- Step 2
-- Step 3
+```
+The temperature is 30C
+```
 
+### 🍋 Arithmetic spice
 
-### 🤼‍♂️ The hard challenge title
+Create a new variable called `number` of type `int`:
 
-- Step 1
-- Step 2
-- Step 3
+```dart
+int number = 5;
+```
 
+And achieve this output in the console:
 
-### 🌶 The Extreme challenge title 
-
-- Step 1
-- Step 2
-- Step 3
+```
+5 plus 5 makes 10
+```
