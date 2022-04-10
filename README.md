@@ -4,7 +4,7 @@ Given the following variables:
 
 ```dart
 double temperature = 20;
-String juice = 'juice';
+String drink = 'juice';
 String flavor = 'orange';
 ```
 
