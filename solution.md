@@ -3,7 +3,7 @@
 ```dart
 void main() {
 double temperature = 20;
-String juice = 'juice';
+String drink = 'juice';
 String flavor = 'orange';
 }
 ```
@@ -13,7 +13,7 @@ String flavor = 'orange';
 ```dart
 void main() {
 double temperature = 20;
-String juice = 'juice';
+String drink = 'juice';
 String flavor = 'orange';
 
 print("The temperature is C");
@@ -39,11 +39,11 @@ print("The temperature is ${temperature}C");
 ```dart
 void main() {
 double temperature = 20;
-String juice = 'juice';
+String drink = 'juice';
 String flavor = 'orange';
 
 print("The temperature is ${temperature}C");
-print("I like $flavor $juice.");
+print("I like $flavor $drink.");
 }
 ```
 
@@ -68,12 +68,12 @@ print("I like $flavor $juice.");
 ```dart
 void main() {
 double temperature = 20;
-String juice = 'juice';
+String drink = 'juice';
 String flavor = 'orange';
 int number = 5;
 
 print("The temperature is ${temperature}C");
-print("I like $flavor $juice.");
+print("I like $flavor $drink.");
 print("$number plus $number makes $number + $number");
 }
 ```
@@ -89,12 +89,12 @@ To have an `expression` in a string we also have to use the curly braces `{}` as
 ```dart
 void main() {
 double temperature = 20;
-String juice = 'juice';
+String drink = 'juice';
 String flavor = 'orange';
 int number = 5;
 
 print("The temperature is ${temperature}C");
-print("I like $flavor $juice.");
+print("I like $flavor $drink.");
 print("$number plus $number makes ${number + number}");
 }
 ```
